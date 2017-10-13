@@ -1,0 +1,4 @@
+This lab project uses some sample images downloaded from wikimedia.org to demonstrate the ability of face swapping using computer vision techniques. These images include:
+
+* The_Equestrian_Session_(2828511727).jpg: By THOR (The Equestrian Session) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons
+* Andrea_V.jpg: By Villarroelandre (Own work) [CC BY-SA 4.0 (http://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons

@@ -1,0 +1,60 @@
+{
+    "tests": [
+        {
+            "result": "E",
+            "rubric_item_id": "6511",
+            "description": "Step 2: Create a simple RNN model for regression",
+            "traceback": "AttributeError: 'NoneType' object has no attribute 'layers'\n"
+        },
+        {
+            "result": "E",
+            "rubric_item_id": "6514",
+            "description": "Step 5: Create an RNN to perform multiclass classification",
+            "traceback": "AttributeError: 'NoneType' object has no attribute 'layers'\n"
+        },
+        {
+            "result": "F",
+            "rubric_item_id": "6512",
+            "description": "Step 3: Clean up a large text corpus",
+            "traceback": "AssertionError: False is not true : \u000b should not be included in the clean text\n"
+        },
+        {
+            "result": "F",
+            "rubric_item_id": "6510",
+            "description": "Step 1: Implement a function to window time series",
+            "traceback": "AssertionError: False is not true : Output value (y) has in incorrect shape.\n"
+        },
+        {
+            "result": "F",
+            "rubric_item_id": "6513",
+            "description": "Step 4: Implement a function to window a large text corpus",
+            "traceback": "AssertionError: False is not true : The returned inputs value has an incorrect length.\n"
+        }
+    ],
+    "critiques": {
+        "806": {
+            "rubric_items": {
+                "6510": {
+                    "result": "failed",
+                    "observation": "```\nNot all of the tests passed.\n\n\n************************************************************************\n                         Test Failure Feedback                          \n************************************************************************\n\nFailed Test: Step 1: Implement a function to window time series\n----------------------------------------------------------------------\nAssertionError: False is not true : Output value (y) has in incorrect shape.\n\n\n************************************************************************\n                          Test Result Summary                           \n************************************************************************\n\nStep 1: Implement a function to window time series                     F\n\n\n```"
+                },
+                "6511": {
+                    "result": "failed",
+                    "observation": "```\nNot all of the tests passed.\n\n\n************************************************************************\n                         Test Failure Feedback                          \n************************************************************************\n\nFailed Test: Step 2: Create a simple RNN model for regression\n----------------------------------------------------------------------\nAttributeError: 'NoneType' object has no attribute 'layers'\n\n\n************************************************************************\n                          Test Result Summary                           \n************************************************************************\n\nStep 2: Create a simple RNN model for regression                       E\n\n\n```"
+                },
+                "6512": {
+                    "result": "failed",
+                    "observation": "```\nNot all of the tests passed.\n\n\n************************************************************************\n                         Test Failure Feedback                          \n************************************************************************\n\nFailed Test: Step 3: Clean up a large text corpus\n----------------------------------------------------------------------\nAssertionError: False is not true : \u000b should not be included in the clean text\n\n\n************************************************************************\n                          Test Result Summary                           \n************************************************************************\n\nStep 3: Clean up a large text corpus                                   F\n\n\n```"
+                },
+                "6513": {
+                    "result": "failed",
+                    "observation": "```\nNot all of the tests passed.\n\n\n************************************************************************\n                         Test Failure Feedback                          \n************************************************************************\n\nFailed Test: Step 4: Implement a function to window a large text corpus\n----------------------------------------------------------------------\nAssertionError: False is not true : The returned inputs value has an incorrect length.\n\n\n************************************************************************\n                          Test Result Summary                           \n************************************************************************\n\nStep 4: Implement a function to window a large text corpus             F\n\n\n```"
+                },
+                "6514": {
+                    "result": "failed",
+                    "observation": "```\nNot all of the tests passed.\n\n\n************************************************************************\n                         Test Failure Feedback                          \n************************************************************************\n\nFailed Test: Step 5: Create an RNN to perform multiclass classification\n----------------------------------------------------------------------\nAttributeError: 'NoneType' object has no attribute 'layers'\n\n\n************************************************************************\n                          Test Result Summary                           \n************************************************************************\n\nStep 5: Create an RNN to perform multiclass classification             E\n\n\n```"
+                }
+            }
+        }
+    }
+}

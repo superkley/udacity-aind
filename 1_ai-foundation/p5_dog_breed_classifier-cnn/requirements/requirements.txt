@@ -1,0 +1,15 @@
+ipython-genutils==0.1.0
+jupyter-client==5.0.0
+jupyter-console==5.1.0
+jupyter-core==4.3.0
+keras==2.0.2
+nb-anacondacloud==1.2.0
+nb-conda==2.0.0
+nb-conda-kernels==2.0.0
+opencv-python==3.1.0.0
+prompt-toolkit==1.0.13
+protobuf==3.2.0
+tensorflow==1.0.1
+theano==0.9.0
+tqdm==4.11.2
+win-unicode-console==0.5

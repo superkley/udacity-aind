@@ -1,0 +1,60 @@
+{
+    "tests": [
+        {
+            "traceback": "AssertionError: False is not true : Input value (X) returned has an incorrect shape.\n",
+            "rubric_item_id": "6510",
+            "description": "Step 1: Implement a function to window time series",
+            "result": "F"
+        },
+        {
+            "traceback": "",
+            "rubric_item_id": "6511",
+            "description": "Step 2: Create a simple RNN model for regression",
+            "result": "."
+        },
+        {
+            "traceback": "",
+            "rubric_item_id": "6514",
+            "description": "Step 5: Create an RNN to perform multiclass classification",
+            "result": "."
+        },
+        {
+            "traceback": "",
+            "rubric_item_id": "6512",
+            "description": "Step 3: Clean up a large text corpus",
+            "result": "."
+        },
+        {
+            "traceback": "",
+            "rubric_item_id": "6513",
+            "description": "Step 4: Implement a function to window a large text corpus",
+            "result": "."
+        }
+    ],
+    "critiques": {
+        "806": {
+            "rubric_items": {
+                "6510": {
+                    "result": "failed",
+                    "observation": "```\nNot all of the tests passed.\n\n\n************************************************************************\n                         Test Failure Feedback                          \n************************************************************************\n\nFailed Test: Step 1: Implement a function to window time series\n----------------------------------------------------------------------\nAssertionError: False is not true : Input value (X) returned has an incorrect shape.\n\n\n************************************************************************\n                          Test Result Summary                           \n************************************************************************\n\nStep 1: Implement a function to window time series                     F\n\n\n```"
+                },
+                "6511": {
+                    "result": "passed",
+                    "observation": "Correct!"
+                },
+                "6512": {
+                    "result": "passed",
+                    "observation": "Correct!"
+                },
+                "6513": {
+                    "result": "passed",
+                    "observation": "Correct!"
+                },
+                "6514": {
+                    "result": "passed",
+                    "observation": "Correct!"
+                }
+            }
+        }
+    }
+}

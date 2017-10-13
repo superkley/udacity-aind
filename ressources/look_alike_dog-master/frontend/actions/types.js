@@ -1,0 +1,4 @@
+export const CHANGE_VIEW = 'CHANGE_VIEW';
+export const TAKE_SNAPSHOT = 'TAKE_SNAPSHOT';
+export const UPDATE_RESULT = 'UPDATE_RESULT';
+
