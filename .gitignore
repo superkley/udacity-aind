@@ -6,7 +6,9 @@ test.py
 res/
 ews/
 resources/
+ressources/
 dcgan/data
+checkpoints/
 data
 *.pyc
 OpenNMT/data

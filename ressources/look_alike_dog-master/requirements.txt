@@ -1,8 +1,0 @@
-flask
-Pillow
-keras
-tensorflow
-numpy
-h5py
-gunicorn
-gevent
